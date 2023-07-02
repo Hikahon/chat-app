@@ -58,16 +58,98 @@
  height: 100px;
  background-color: #FFFFFF;
  padding: 0 40px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.group-name {
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.header-right {
+  margin-top: 40px;
+}
+
+.exit-btn {
+ color: darkred;
+ text-decoration: none;
+ border: 1px solid darkred;
+ padding: 20px;
 }
 
 .messages {
   height: calc( 100vh - 100px - 90px );
   background-color: #FAFAFA;
   padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.each-message {
+  margin: 10px 0 40px 0;
+}
+
+.post {
+  display: flex;
+}
+
+.message-name {
+  font-size: 16px;
+  color: #434A54;
+  margin: 0 10px 10px 0;
+}
+
+.message {
+  font-size: 14px;
+  color: #434A54;
+}
+
+.date {
+  font-size: 12px;
+  color: #999;
 }
 
 .form {
   height: 90px;
   background-color: #DDDDDD;
   padding: 20px 40px;
+  display: flex;
+}
+
+.message-form {
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+.new-message {
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+}
+
+.submit-btn {
+  height: 50px;
+  font-size: 16px;
+  color:white;
+  background-color: #38AEF0;
+  margin-left: 15px;
+  padding: 0 20px;
+  border: none;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
 }
