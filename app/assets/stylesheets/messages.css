@@ -21,13 +21,13 @@
   padding: 0 20px;
 }
 
-.user-name {
+.user-name a{
   font-size: 16px;
   color: #FAFAFA;
   text-decoration: none;
 }
 
-.create-chat {
+.create-chat a{
   font-size: 10px;
   color: deepskyblue;
   text-decoration: none;
