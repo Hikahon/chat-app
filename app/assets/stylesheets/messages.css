@@ -42,7 +42,7 @@
   overflow: scroll
 }
 
-.room-name {
+.room-name a {
   display: block;
   color: white;
   text-decoration: none;
