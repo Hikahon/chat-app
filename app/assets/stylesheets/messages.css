@@ -117,20 +117,20 @@
   display: flex;
 }
 
-.message-form {
+.form-input {
   background-color: white;
   display: flex;
   width: 100%;
 }
 
-.new-message {
+.form-message {
   height: 50px;
   width: 100%;
   padding-left: 10px;
   border: none;
 }
 
-.submit-btn {
+.form-submit {
   height: 50px;
   font-size: 16px;
   color:white;
